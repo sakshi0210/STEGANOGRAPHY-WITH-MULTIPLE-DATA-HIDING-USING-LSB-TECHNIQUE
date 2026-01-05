@@ -42,6 +42,7 @@ This project aims to build a system that hides data inside multimedia files with
 - Takes **2 MSB bits** of the secret image
 - Embeds them into **2 LSB bits** of the cover image
 - Reconstructs the secret image during decoding
+<img width="608" height="364" alt="Image" src="https://github.com/user-attachments/assets/a5420e55-bf03-4eb6-8353-8fc5effb6a2d" />
 
 ### 3️⃣ Video Steganography
 - Breaks video into frames
