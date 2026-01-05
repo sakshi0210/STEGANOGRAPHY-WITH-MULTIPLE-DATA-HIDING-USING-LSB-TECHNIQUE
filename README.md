@@ -48,7 +48,7 @@ This project aims to build a system that hides data inside multimedia files with
 - Breaks video into frames
 - Embeds text/image data into individual frames using LSB
 - Regenerates the video after embedding
-
+<img width="632" height="320" alt="Image" src="https://github.com/user-attachments/assets/b183c001-9147-4e14-b40d-5b5a5dd09b71" />
 ---
 
 ##  Algorithms Used
