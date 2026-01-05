@@ -56,13 +56,32 @@ This project aims to build a system that hides data inside multimedia files with
 2. Convert secret data to binary
 3. Embed data into LSB of pixels
 4. Regenerate stego image/video
-
+   
+Encoding flow:
+Input Text
+   ↓
+Split text into chunks
+   ↓
+Video → Frames
+   ↓
+Hide text chunks into frames (LSB)
+   ↓
+Frames → Video
+   ↓
+Audio merged back
 ### Decoding
 1. Input stego image/video
 2. Extract LSB values
 3. Reconstruct original hidden data
 
----
+Decoding flow:
+Video
+   ↓
+Extract frames
+   ↓
+Read hidden text from frames
+   ↓
+Original message recovered
 
 ##  Results & Analysis
 - Successfully hides **text, image, and video data**
