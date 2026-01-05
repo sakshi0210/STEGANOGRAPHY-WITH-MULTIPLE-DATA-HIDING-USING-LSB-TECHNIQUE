@@ -36,6 +36,7 @@ This project aims to build a system that hides data inside multimedia files with
 - Converts text into ASCII values
 - Embeds binary data into the **LSB of RGB pixel values**
 - Extracts text by reading LSBs during decoding
+  <img width="658" height="314" alt="Image" src="https://github.com/user-attachments/assets/565c4c62-40ca-47e3-a4ec-cc1d2ca128f3" />
 
 ### 2️⃣ Image Steganography
 - Takes **2 MSB bits** of the secret image
